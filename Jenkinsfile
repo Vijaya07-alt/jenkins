@@ -13,6 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 echo "Building from Jenkins file"
+                echo "By Vijaya Sai - SE22UCSE293"
                 '''
             }
         }
@@ -21,6 +22,7 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 echo "Testing the build triggered from Jenkins file."
+                echo "By Vijaya Sai - SE22UCSE293"
                 '''
             }
         }
@@ -29,6 +31,7 @@ pipeline {
                 echo 'Deliver....'
                 sh '''
                 echo "doing delivery stuff.."
+                echo "By Vijaya Sai - SE22UCSE293"
                 '''
             }
         }
